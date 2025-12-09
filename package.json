@@ -74,7 +74,8 @@
     "connect": "moralis-admin-cli connect-local-devchain",
     "dev:server": "node server/app.js",
     "dev:client": "vite",
-    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\""
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "prepare": "npm run dev"
   },
   "eslintConfig": {
     "extends": [
