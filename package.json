@@ -40,6 +40,7 @@
     "geth": "^0.4.0",
     "mdbreact": "^5.1.0",
     "moment": "^2.29.1",
+    "mongodb": "^7.0.0",
     "mongoose": "^7.5.0",
     "moralis": "^0.0.176",
     "node-media-server": "^2.6.0",
@@ -74,8 +75,7 @@
     "connect": "moralis-admin-cli connect-local-devchain",
     "dev:server": "node server/app.js",
     "dev:client": "vite",
-    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
-    "prepare": "npm run dev"
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\""
   },
   "eslintConfig": {
     "extends": [
