@@ -1,4 +1,11 @@
-#
+# do not run this repo on your machine
+This is probably a hacking script 
+
+
+
+
+
+
 
 #
 
